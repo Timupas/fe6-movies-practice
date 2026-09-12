@@ -1,12 +1,13 @@
 import { NavLink } from './Navigation.module.css'
+import { Nav } from './Navigatioon.styled.js'
 
 function Navigation() {
     return (
         <>
-        <nav>
+        <Nav>
             <NavLink to="/">Home</NavLink>{ " | " }
             <NavLink to="/movies">Movies</NavLink>
-        </nav>
+        </Nav>
         
         </>
     )
