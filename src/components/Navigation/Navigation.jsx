@@ -1,15 +1,12 @@
-import { NavLink } from './Navigation.module.css'
-import { Nav } from './Navigatioon.styled.js'
+import { NavLink } from "react-router-dom"
+import { Nav, StyledLink } from "./Navigation.styled.js"
 
 function Navigation() {
     return (
-        <>
         <Nav>
-            <NavLink to="/">Home</NavLink>{ " | " }
-            <NavLink to="/movies">Movies</NavLink>
+            <StyledLink to="/">Home</StyledLink>
+            <StyledLink to="/movies">Movies</StyledLink>
         </Nav>
-        
-        </>
     )
 }
 

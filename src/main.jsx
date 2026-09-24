@@ -5,7 +5,7 @@ import { BrowserRouter, HashRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/fe6-movies-practice">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>,
